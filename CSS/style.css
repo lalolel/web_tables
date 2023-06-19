@@ -2,6 +2,7 @@
     margin: 10;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 html {
     background-color: rgb(126, 187, 238);
@@ -90,8 +91,6 @@ th, td {
   width: 33.3333%;
 }
 table, th, td {
-  border: 1px solid black;
-  font-family: Arial, sans-serif;
   text-align: center;
   font-size: 18px;
 }
@@ -106,101 +105,11 @@ table, th, td {
   width: 77%;
 }
 
-.nav-left {
-    padding-left: 100px;
-    
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
 }
-
-.nav-right {
-    padding-right: 400px;
-    padding-top: 18px;
-}
-
-.half-width {
-    width: 50%;
-}
-
-.full-height {
-    height: 100%;
-}
-
-.menu {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-}
-
-.menu-item {
-    display: flex;
-    align-items: center;
-    color: white;
-    height: 100%;
-    width: 180%;
-    
-}
-
-.menu-item:hover  {
-    color: dodgerblue;
-    background-color: rgb(57, 6, 73);
-    cursor: pointer;
-}
-.menu-item:hover .dropdown  {
-    display: flex;
-}
-.relative {
-    position: relative;
-}
-
-.dropdown {
-  position: absolute;
-    bottom: -150px;
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    text-align: center;
-    height: 150px;
-    background-color: rgb(57, 6, 73);
-    
-}
-
-.dropdown-item {
- color: dodgerblue;
-    font-size: 20px;
-    border-bottom: 1px solid transparent;
-    background-color: rgb(57, 6, 73);
-    padding-top: 5px;
-   height: 100%;
-   padding-bottom: 3px;
-   
-}
-
-.dropdown-item:not(:last-child) {
-    border-color: dodgerblue;
-}
-
-.social {
-    width: 110%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.social-item {
-    display: flex;
-}
-
-.social-icon {
-    color: white; 
-}
-
-.social-icon:hover {
-    color: rgb(21, 108, 167);
-    cursor: pointer;
-}
-
 .container1 {
     display: block;
     height: 300px;
@@ -231,41 +140,7 @@ table, th, td {
     
 }
 
-.hidden {
-    display: none;
-}
 
-.button {
-    background-color: rgb(143, 17, 126); /* Green */
-    border: none;
-    color: rgb(255, 255, 255);
-    padding: 30px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: fantasy;  
-    font-size: 30px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-top-right-radius: 24px;
-    border-top-left-radius: 24px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1px;
-    width: 15%;
-    cursor: pointer;
-}
-.picture-middle {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    float: left;
-    margin: 1px;
-    width: 300px;
-    padding: 30px 30px;
-}
 
 .picture-fill {
     height: 300px;
@@ -294,18 +169,7 @@ table, th, td {
     width: 500px;
     margin: auto;
 }        
-ul.a {
-    list-style-type: none;
-}
-  
-ul.purple-bullet {
-    margin-left: 10px;
-    list-style-image: url('../images/sqpurple bullet.gif');
-}
-ul.blue-bullet {
-    margin-left: 10px;
-    list-style-image: url('../images/sqblue.gif');
-    
+
 }
 footer {
   margin-top: 50px;
@@ -322,23 +186,6 @@ footer h3 {
   background-color: #242f44;
 }
 
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  height: 800px;
-}
-
-
 .left {
   width: 150px;
 }
-
-/* 
-overflow-y: scroll; skrullitis 
-centret tekstu css:
-    h1 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-
-    
-*/
