@@ -55,6 +55,7 @@ table, th, td {
   font-family: Arial, sans-serif;
   text-align: center;
  border: 2px solid #8c6b48;
+
 }
 
 table {
@@ -65,8 +66,12 @@ table {
   position: static;
   width: 80%;
 text-align: center;
+border: 2px solid #8c6b48;
 }
 
+th {
+  border: 2px solid #8c6b48;
+}
 thead th {
   background: #88CCF1;
   color: #FFF;
