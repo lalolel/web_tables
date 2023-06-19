@@ -50,132 +50,20 @@ h3 {
   letter-spacing: 0.8px;
 }
 
-}
-table, th, td {
-  font-family: Arial, sans-serif;
-  text-align: center;
- border: 2px solid #8c6b48;
-
-}
-
-table {
-  height: 40%;
-  left: 10%;
-  margin: 20px auto;
-  overflow-y: scroll;
-  position: static;
-  width: 80%;
-text-align: center;
-border: 2px solid #8c6b48;
-}
-
 th {
   border: 2px solid #8c6b48;
 }
-thead th {
-  background: #88CCF1;
-  color: #FFF;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
-tr {
-  background: #f4f7f8;
-  border-bottom: 1px solid #FFF;
-  margin-bottom: 5px;
-}
-
-th, td {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  padding: 20px;
-  text-align: left;
-  width: 33.3333%;
-}
-table, th, td {
+table {
   text-align: center;
-  font-size: 18px;
+  margin: 20px auto;
 }
 
-.search {
-  background-color: #FFF;
-  border: 1px solid #DDD;
-  border-radius: 3px;
-  color: #AAA;
-  padding: 20px;
-  margin: 50px auto 0px auto;
-  width: 77%;
+td {
+  border: 2px solid #8c6b48;
+  width: 300px;
 }
 
-.container {
-  max-width: 940px;
-  margin: 0 auto;
-  height: 800px;
-}
-.container1 {
-    display: block;
-    height: 300px;
-    width: 300px;
-    margin: auto;
-
-}
-.container2 {
-    display: block;
-    height: 500px;
-    width: auto;
-    padding-left: 400px;
-    padding-top: 5px;
-}
-
-.container3 {
-    display: block;
-    height: 50px;
-    width: auto;
-    padding-left: auto;
-    padding-top: -20px;
-}
-.container4 {
-    display: block;
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    
-}
-
-
-
-.picture-fill {
-    height: 300px;
-    width: 300px ;
-}
-
-
-@media only screen and (min-width: 400px) {
-    .content ul {
-            flex-direction: row;
-            width: 200px;;
- }
-
-.picture-logo1 {
-    height: 300px;
-    width: 300px ;
-}
-
-.picture-logo2 {
-    height: 300px;
-    width: 500px ;
-}
-.picture-center {
-     display: block;
-    height: 200pxx;
-    width: 500px;
-    margin: auto;
-}        
-
-}
 footer {
   margin-top: 50px;
   text-align: center;
@@ -190,6 +78,13 @@ footer h3 {
   font-size: 14px;
   background-color: #242f44;
 }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px;
+}
+
 
 .left {
   width: 150px;
