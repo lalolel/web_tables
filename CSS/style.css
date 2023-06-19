@@ -59,9 +59,9 @@ h3 {
 
 }
 table, th, td {
-  border: 1px solid black;
   font-family: Arial, sans-serif;
   text-align: center;
+ border: 2px solid #8c6b48;
 }
 
 table {
